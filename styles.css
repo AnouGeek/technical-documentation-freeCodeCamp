@@ -49,16 +49,30 @@ body {
     line-height: 1.4;
     color: rgb(123, 120, 120);
 }
+#main-doc ol {
+    list-style-type: circle;
+    margin: 0 0 20px 60px;
+}
 
 header {
     font-size: 2.8rem;
     padding: 10px;
 }
 p {
-    font-size: 1.4em;
+    font-size: 1.5em;
     margin: 10px 0 20px 20px;
     line-height: 1.4;
     color: rgb(123, 120, 120);
+}
+code {
+    display: block;
+    font-size: 1.4em;
+    margin: 0 0 20px 40px;
+    line-height: 1.4;
+    color: rgb(123, 120, 120);
+}
+.reference_list {
+    padding-bottom: 30px;
 }
 
 @media screen and (max-width: 810px) {
@@ -81,6 +95,9 @@ p {
     }
     #main-doc {
         margin-left: 0;
+    }
+    .reference_list {
+        padding-bottom: 100px;
     }
 }
 
